@@ -41,3 +41,5 @@
 Примеры эндпоинтов развернутого приложения на платформе Heroku
 https://simpleapi99.herokuapp.com/api/v1/status
 https://simpleapi99.herokuapp.com/api/v1/products
+
+[![Build Status](https://app.travis-ci.com/AnastasiaSharafutdinova99/LR1.svg?branch=master)](https://app.travis-ci.com/AnastasiaSharafutdinova99/LR1)
