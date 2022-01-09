@@ -29,3 +29,15 @@
   `curl -X DELETE http://localhost:8080/api/v1/products/{id}`
 5. Обращение к ендпоинту, возвращающему hostname:
   `curl http://localhost:8080/api/v1/status`
+
+##
+
+Лабораторная работа №3: CI/CD и деплой приложения в Heroku
+
+Шарафутдинова Анастасия Сергеевна МБД2131
+
+Целью лабораторной работы является знакомство с CI/CD и его реализацией на примере Travis CI и Heroku
+
+Примеры эндпоинтов развернутого приложения на платформе Heroku
+https://simpleapi99.herokuapp.com/api/v1/status
+https://simpleapi99.herokuapp.com/api/v1/products
