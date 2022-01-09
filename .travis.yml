@@ -3,4 +3,6 @@ jdk: oraclejdk8
 language: java
 services:
   - postgresql
-#  - docker
+  - docker
+before_install:
+  - chmod +x mvnw
