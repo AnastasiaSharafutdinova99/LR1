@@ -19,13 +19,13 @@
   `docker run -p 8080:8080 simpleapi:latest`
 
 При запущенном приложении можно выполнить curl-команды:
-1. Получение одного продукта из таблицы по id:
+1. Получение одной игры из таблицы по id:
   `curl http://localhost:8080/api/v1/game/{id}`
-2. Получение списка всех продуктов в таблице:
+2. Получение списка всех игр в таблице:
   `curl http://localhost:8080/api/v1/games`
-3. Добавление продукта в таблицу:
+3. Добавление игры в таблицу:
   `curl -X POST http://localhost:8080/api/v1/games -H 'Content-Type:application/json' -d '{"name": "name", "publisher": "publisher", "release": "release", "mode": "mode" }'`
-4. Удаление продукта из таблицы по id:
+4. Удаление игры из таблицы по id:
   `curl -X DELETE http://localhost:8080/api/v1/games/{id}`
 5. Обращение к ендпоинту, возвращающему hostname:
   `curl http://localhost:8080/api/v1/status`
