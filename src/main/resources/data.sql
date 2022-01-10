@@ -1,5 +1,6 @@
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Молоко', 'Домик в деревне', '41', '10');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Йогурт', 'Valio', '34', '6');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Хлебцы', 'Сытоедов', '120', '2');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Пельмени', 'Dr.Korner', '60', '30');
-INSERT INTO public.product (name, brand, price, quantity) VALUES ('Вода негазированная', 'Evian Inc', '100', '60');
+INSERT INTO public.game (name, publisher, release, mode) VALUES ('Counter-Strike 1.6', 'Valve', '2000', 'Multiplayer');
+INSERT INTO public.game (name, publisher, release, mode) VALUES ('Heroes of Might and Magic III', 'Ubisoft', '1999', 'Single-player, multiplayer');
+INSERT INTO public.game (name, publisher, release, mode) VALUES ('Mortal Kombat', 'Midway', '1992', 'Single-player, multiplayer');
+INSERT INTO public.game (name, publisher, release, mode) VALUES ('FIFA 19', 'EA', '2018', 'Single-player, multiplayer');
+INSERT INTO public.game (name, publisher, release, mode) VALUES ('THe Witcher', 'CD Projekt', '2007', 'Single-player');
+INSERT INTO public.game (name, publisher, release, mode) VALUES ('Half-Life 2', 'Valve', '2004', 'Single-player');

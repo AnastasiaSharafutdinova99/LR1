@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import org.hibernate.validator.constraints.SafeHtml;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
@@ -15,17 +14,16 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-public class Product extends AbstractBaseEntity {
-
+public class Game extends AbstractBaseEntity {
 
     @NotBlank
 //    @SafeHtml
     private String name;
     @NotBlank
 //    @SafeHtml
-    private String brand;
+    private String publisher;
     @NotNull
-    private Integer price;
+    private String release;
     @NotNull
-    private Integer quantity;
+    private String mode;
 }
