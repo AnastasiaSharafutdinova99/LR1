@@ -20,13 +20,13 @@
 
 При запущенном приложении можно выполнить curl-команды:
 1. Получение одного продукта из таблицы по id:
-  `curl http://localhost:8080/api/v1/game/{id}`
+  `curl http://localhost:8080/api/v1/products/{id}`
 2. Получение списка всех продуктов в таблице:
-  `curl http://localhost:8080/api/v1/games`
+  `curl http://localhost:8080/api/v1/products`
 3. Добавление продукта в таблицу:
-  `curl -X POST http://localhost:8080/api/v1/games -H 'Content-Type:application/json' -d '{"name": "name", "publisher": "publisher", "release": "release", "mode": "mode" }'`
+  `curl -X POST http://localhost:8080/api/v1/products -H 'Content-Type:application/json' -d '{"name": "name", "brand": "brand", "price": 78, "quantity": 25 }'`
 4. Удаление продукта из таблицы по id:
-  `curl -X DELETE http://localhost:8080/api/v1/games/{id}`
+  `curl -X DELETE http://localhost:8080/api/v1/products/{id}`
 5. Обращение к ендпоинту, возвращающему hostname:
   `curl http://localhost:8080/api/v1/status`
 
@@ -40,6 +40,4 @@
 
 Примеры эндпоинтов развернутого приложения на платформе Heroku
 https://simpleapi99.herokuapp.com/api/v1/status
-https://simpleapi99.herokuapp.com/api/v1/games
-
-[![Build Status](https://app.travis-ci.com/AnastasiaSharafutdinova99/LR1.svg?branch=master)](https://app.travis-ci.com/AnastasiaSharafutdinova99/LR1)
+https://simpleapi99.herokuapp.com/api/v1/products
